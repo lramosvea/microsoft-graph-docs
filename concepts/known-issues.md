@@ -370,6 +370,10 @@ does not become part of the body of the resultant message draft.
 
 In both the v1.0 and beta endpoints, the response to `GET /users/id/messages` includes the user's Microsoft Teams chats that occurred outside the scope of a team or channel. These chat messages have "IM" as their subject.
 
+### Change notifications missing in `/delta` calls to messages API using immutable IDs
+
+When you make `/delta` calls to the messages API using immutable IDs, you might miss some change notifications in some cases (e.g. when a message moves out of a folder and is then moved back in).
+
 ## Reports
 
 ### License check errors for Azure AD activity reports
