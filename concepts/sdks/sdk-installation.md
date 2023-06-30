@@ -137,6 +137,8 @@ If you're upgrading from the preview modules, run `Install-Module` with `AllowCl
 Install-Module Microsoft.Graph -AllowClobber -Force
 ```
 
+The consent page shows that the 'Command Line' app that caters to PowerShell and CLI is from an unverified publisher. For details and workarounds, see [known issues] (https://developer.microsoft-tst.com/en-us/graph/known-issues/preview/?search=18030).
+
 ## Install the Microsoft Graph Python SDK (preview)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
